@@ -7,7 +7,7 @@ let package = Package(
     name: "test",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/rahyoung/unixTools.git", .branch("master")),
+        .package(url: "https://github.com/rahyoung/unixTools.git", .revision("1a423c08fdb906bc8a50fdffae4e57d41316654f")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
